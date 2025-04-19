@@ -20,7 +20,8 @@ namespace BudgetBuddy
         private void AddTransactionForm_Load(object sender, EventArgs e)
         {
             cmbType.Items.Add("Income");
-            cmbType.Items.Add("Expense");
+            cmbType.Items.Add("Expense");   
+
             cmbType.SelectedIndex = 0; // default to Income
 
             LoadCategories(); // populate category box
